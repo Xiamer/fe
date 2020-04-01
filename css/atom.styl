@@ -1,0 +1,214 @@
+// 通用原子类
+
+// 水平垂直居中
+.vh-parent
+  position relative
+.v
+  position absolute
+  top 50%
+  transform translateY(-50%)
+.h
+  position absolute
+  left 50%
+  transform translateX(-50%)
+.vh
+  position absolute
+  top 50%
+  left 50%
+  transform translate(-50%, -50%)
+
+// 单行和多行省略，参考 /static/css/atom.css
+
+// 水平滑动
+.h-scroll
+  overflow-x scroll
+  width 100%
+  white-space nowrap
+  -webkit-overflow-scrolling touch
+
+// 折行
+.word-wrap
+  white-space pre-wrap
+  word-wrap break-word
+  word-break break-all
+
+// 禁止事件
+.event-disabled
+  pointer-events none
+
+// 背景颜色
+.bg-white
+  background-color:#fff
+.bg-yellow
+  background-color:#ff0
+.bg-blue
+  background-color:#00f
+.bg-green
+  background-color:green
+.bg-red
+  background-color:red
+.bg-black
+  background-color:#000
+.bg-image
+  background-color:#e1e3e8
+.bg-text
+  background-color:#f5f7fa
+.bg-app
+  background-color: #272537
+.bg-theme
+  background-color: #fafafa
+
+// 字体颜色
+.c-white
+  color:#fff
+.c-yellow
+  color:#ff0
+.c-blue
+  color:#00f
+.c-green
+  color:green
+.c-red
+  color:red
+.c-black
+  color:#000
+
+// display
+.inbl
+  display inline-block
+.dspl-bl
+  display block
+.dspl-flex
+  display flex
+
+// vertical-align
+.vtal-top
+  vertical-align top
+.vtal-md
+  vertical-align middle
+.vtal-bt
+  vertical-align bottom
+
+// float
+.fl-r
+  float right
+.fl-l
+  float left
+.cfl::after
+  content: '';
+  display: block;
+  clear: both;
+
+// box-sizing
+.bs-bd
+  box-sizing border-box
+.bs-ct
+  box-sizing content-box
+
+// position
+.pst-rlt
+  position relative
+.pst-absl
+  position absolute
+.pst-absl-i
+  position absolute !important
+.pst-fx
+  position fixed
+
+// overflow
+.ovfl-hd
+  overflow hidden
+.ovfl-scroll
+  overflow scroll
+.ovfl-vsb
+  overflow visible
+.ovfl-x-hd
+  overflow-x hidden
+.ovfl-x-scroll
+  overflow-x scroll
+.ovfl-y-hd
+  overflow-y hidden
+.ovfl-y-scroll
+  overflow-y scroll
+
+// 清除浮动
+.cl-b
+  clear both
+.cl-l
+  clear left
+.cl-r
+  clear right
+
+// 字体对齐
+.t-c
+  text-align center
+.t-l
+  text-align left
+.t-r
+  text-align right
+.td-none
+  text-decoration none
+.td-lth
+  text-decoration line-through
+
+// 淡入淡出效果
+.fadein-init
+  opacity 0
+  transition opacity 0.2s ease-in
+.fadein
+  opacity 1
+
+// 其他
+.brp-50
+  border-radius 50%
+.cs-pt
+  cursor pointer
+.cs-wait
+  cursor wait
+.tran-all
+  transition: all 0.2s;
+
+.bg-loading
+  background-image url('https://mlook.ilovelook.cn/wxapp/kol/bg-spinner.gif')
+  background-repeat no-repeat
+  background-position center
+  background-size 1rem
+
+.maxwp-100
+  max-width: 100%
+.maxhp-100
+  max-height: 100%
+
+.rotate-90
+  transform: rotate(90deg);
+
+.rotate-180
+  transform: rotate(180deg);
+
+.rotate-270
+  transform: rotate(270deg);
+
+.mx-auto
+  margin-left auto
+  margin-right auto
+
+
+
+.te
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  white-space: initial
+
+/* 多行省略 1 ~ 5 */
+.te-1
+  -webkit-line-clamp: 1;
+.te-2
+  -webkit-line-clamp: 2;
+.te-3
+  -webkit-line-clamp: 3;
+.te-4
+  -webkit-line-clamp: 4;
+.te-5
+  -webkit-line-clamp: 5;
+
