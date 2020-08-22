@@ -10,7 +10,7 @@
  * 四方向：l、r、t、b；（h5 端简写由于跟 margin 冲突，添加第二个字母 o：mol、mor、mot、mob）
  * 行高：lh
  * 字体：fs、fw
- * border-radius：br
+ * border-radius： br
  *
  * 「通用原子类」，在 /css/atom.style 中单独支持
  *
