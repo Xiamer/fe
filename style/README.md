@@ -1,6 +1,6 @@
 ## 前端常用的css
 
-* `minireset.css` 重置 `margin` `padding` `box-sizing`
+* `minireset.css` 重置 `margin` `padding` `box-sizing`
 * `normalize.css` 重置 `默认样式`
 * `atom.css` 常用的css简写
   * 通用背景色 `bg-`
